@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caffe Natz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--Navbar-->
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Caffe Natz</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Pesanan</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-sm-2" type="text" placeholder="Search" />
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--Navbar end-->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--content side left-->
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="list-group mt-5">
+            <li class="list-group-item active" aria-current="true"><i class="bi bi-cart-check"></i> Daftar Menu</li>
+            <li class="list-group-item">
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger dropdown-toggle text-dark bg-warning" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-handbag"></i> Makanan</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nasi Goreng</a></li>
+                  <li><a class="dropdown-item" href="#">Chicken</a></li>
+                  <li><a class="dropdown-item" href="#">Pizza</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Selengkapnya</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger dropdown-toggle text-dark bg-warning" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-cup"></i> Minuman</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Milo</a></li>
+                  <li><a class="dropdown-item" href="#">Teh</a></li>
+                  <li><a class="dropdown-item" href="#">Air Putih</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Selengkapnya</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger dropdown-toggle text-dark bg-warning" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-journal"></i> Paket</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Paket 1</a></li>
+                  <li><a class="dropdown-item" href="#">Paket 2</a></li>
+                  <li><a class="dropdown-item" href="#">Paket 3</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Selengkapnya</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger dropdown-toggle text-dark bg-warning" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-egg-fried"></i> Cemilan</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Usus Ayam Crispy</a></li>
+                  <li><a class="dropdown-item" href="#">Kulit Ayam Crispy</a></li>
+                  <li><a class="dropdown-item" href="#">Mendowan</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Selengkapnya</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!--end content side left-->
+        <!--content-->
+        <div class="col-md-6">
+          <!--judul-->
+          <div class="card-body text-center mt-4">
+            <h5 class="card-title">Makanan dan minuman spesial hari ini</h5>
+            <p class="card-text">Banyak diskon menantimu</p>
+          </div>
+          <!--end judul-->
+          <div class="card mb-3 mt-4">
+            <img src="https://images.pexels.com/photos/302468/pexels-photo-302468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Puding</h5>
+              <p class="card-text">
+                Sebuah hidangan penutup yang umumnya dibuat dari bahan-bahan yang direbus, dikukus, atau dipanggang. Istilah puding juga dapat dipakai untuk berbagai jenis pastei yang berisi campuran lemak hewan, daging, atau buah-buahan
+                yang dipanggang, direbus, atau dikukus.
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card mb-3 mt-4">
+            <img src="https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=9400" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <p class="card-text">
+                Hidangan gurih asal Italia sejenis adonan bundar dan pipih, yang dipanggang di oven dan biasanya dilumuri saus tomat serta keju dengan bahan makanan tambahan lainnya yang bisa dipilih sesuai selera. Keju yang dipakai
+                biasanya mozzarella atau keju piza, bisa juga parmesan dan beberapa jenis keju lainnya.
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card mb-3 mt-4">
+            <img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Hamburger</h5>
+              <p class="card-text">
+                Sejenis roti berbentuk bundar yang diiris dua, dan di tengahnya diisi dengan patty yang biasanya diambil dari daging, kemudian sayur-sayuran berupa selada, tomat dan bawang bombai. Sebagai sausnya, hamburger diberi berbagai
+                jenis saus seperti mayones, saus tomat dan sambal, serta moster. Beberapa varian hamburger juga dilengkapi dengan keju dan asinan
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="card-body text-center mt-4">
+            <h5 class="card-title">Review</h5>
+            <p class="card-text">Pendapat mereka tentang masakan kita</p>
+          </div>
+          <div class="card mb-3 mt-4" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/620074/pexels-photo-620074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Steven Arenas</h5>
+                  <p class="card-text">"uhhhh ... the most delicious is the taste of the sambal. Thus, when you leave the restaurant, you will remember the details of the food you tried at the restaurant"</p>
+                  <p class="card-text"><small class="text-muted">12 februari 2022</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/2065203/pexels-photo-2065203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Anastasiya Gepp</h5>
+                  <p class="card-text">"interesting combination of food and drink"</p>
+                  <p class="card-text"><small class="text-muted">21 agustus 2021</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/2709256/pexels-photo-2709256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Riga Naufal Septiana</h5>
+                  <p class="card-text">“Perpaduan bumbu yang lezat, ada rasa manis, pedas, dan gurih. Saya sangat suka”</p>
+                  <p class="card-text"><small class="text-muted">25 Desember 2021</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--content end-->
+        <!--content side right-->
+        <div class="col-md-3">
+          <p class="fs-3 fw-semibold mt-4">Menu Baru</p>
+          <div class="card-group text-center">
+            <div class="card">
+              <img src="https://images.pexels.com/photos/7963252/pexels-photo-7963252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Burger King</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Rp50.000</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://images.pexels.com/photos/7936685/pexels-photo-7936685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Sandwich</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Rp25.000</small>
+              </div>
+            </div>
+          </div>
+          <p class="fs-3 fw-semibold mt-4">Menu Populer</p>
+          <div class="card mt-4" style="width: 18rem">
+            <img src="https://images.pexels.com/photos/9884561/pexels-photo-9884561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Paket 4</h5>
+              <p class="card-text">Kombinasi Kopi hitam dengan pudding rasa coklat</p>
+              <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            </div>
+          </div>
+          <div class="card mt-4" style="width: 18rem">
+            <img src="https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Coffe Late</h5>
+              <p class="card-text">Campuran kopi dan susu yang nikmat</p>
+              <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+            </div>
+          </div>
+          <img src="http://2.bp.blogspot.com/-feTZ6oI7K6Q/U_pMijgAomI/AAAAAAAAAd8/XFvrpOW_Ijs/s1600/contoh%2Biklan%2Bdalam%2Bbahasa%2Binggris.jpg" class="img-thumbnail" alt="..." />
+          <img src="https://i1.wp.com/salamadian.com/wp-content/uploads/2017/09/contoh-iklan-produk-minuman-1.jpg?fit=700%2C396&ssl=1" class="img-thumbnail" alt="..." />
+          <p class="fs-3 fw-semibold mt-4">Daftar Chef</p>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="https://images.pexels.com/photos/2102934/pexels-photo-2102934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Magno Wilmer Kurnia</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://images.pexels.com/photos/1587830/pexels-photo-1587830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Micelle Sancesca Arenas</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://images.pexels.com/photos/3338675/pexels-photo-3338675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Miquel Ferran Gomez</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://images.pexels.com/photos/3351927/pexels-photo-3351927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Caesar Julij Deacon</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end content side right-->
+      <div class="row">
+        <div class="col-md-12">
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-about">
+                    <h1>Caffe Natz</h1>
+                    <p>Pelanggan Bisa melakukan order dengan kartu debit yang telah disediakan</p>
+                    <a href="#"><img src="img/payment.png" alt="" /></a>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                  <div class="footer-widget">
+                    <h6>Order Now</h6>
+                    <ul>
+                      <li><a href="#">Pizza</a></li>
+                      <li><a href="#">Burger King</a></li>
+                      <li><a href="#">Coffe Late</a></li>
+                      <li><a href="#">Puding</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                  <div class="footer-widget">
+                    <h6>Links</h6>
+                    <ul>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Payment Methods</a></li>
+                      <li><a href="#">Delivary</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                  <div class="footer-widget">
+                    <h6>Pesan & Saran</h6>
+                    <div class="footer-newslatter">
+                      <p>Apa pendapatmu tentang toko kita?</p>
+                      <form action="#">
+                        <input type="text" placeholder="Pesan" />
+                        <button type="submit">
+                          <span><i class="fa fa-envelope" arial-hidden="true"></i></span>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <div class="footer-copyright-text">
+                    <p>Copyright 2022 All rights reserved | <i class="fa fa-heart-o" arial-hidden="true"></i> by Yudha</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/poper.min.js"></script>
+  <script src="js/boostrap.min.js"></script>
+</html>
